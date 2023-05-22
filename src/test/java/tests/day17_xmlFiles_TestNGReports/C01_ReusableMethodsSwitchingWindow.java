@@ -37,7 +37,7 @@ public class C01_ReusableMethodsSwitchingWindow {
 
         //● Click Here butonuna basın.
         Driver.getDriver().findElement(By.xpath("//*[text() = 'Click Here']")).click();
-        // 43.satir itibariyle yeni window acildi
+        // 43.satir itibariyle yeni bir window acildi
         // artik 2 window var
 
         // Artik acilan 2.window'un windowHandleDegerine sahibiz
