@@ -24,6 +24,7 @@
             <class name="tests.day15_POM.C06_QualitydemyNegatifLoginTesti"></class>
             <class name="tests.day16_POM_Assertions.C03_SoftAssertion"></class>
 
+
         </classes>
 
     </test>
