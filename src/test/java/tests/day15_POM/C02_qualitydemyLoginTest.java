@@ -14,12 +14,17 @@ public class C02_qualitydemyLoginTest {
         QualitydemyPage qualitydemyPage = new QualitydemyPage();
         // login linkine tiklayin
         qualitydemyPage.ilkLoginLinki.click();
+
+        //çerezleri hanle edin
+        qualitydemyPage.cerezkutusuElementi.click();
         // gecerli username ve sifre yi ilgili kutulara yazin
         qualitydemyPage.emailKutusu.sendKeys("anevzatcelik@gmail.com");
         qualitydemyPage.passwordKutusu.sendKeys("Nevzat152032");
 
+
+
         // login butonuna basin
-        qualitydemyPage.loginButonu.click();
+        qualitydemyPage.loginButonu.submit();
 
         // basarili olarak giris yapildigini test edin
         Assert.assertTrue(qualitydemyPage.basariliGirisKontrolElementi.isDisplayed());

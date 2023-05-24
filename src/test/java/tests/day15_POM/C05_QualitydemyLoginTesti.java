@@ -20,9 +20,11 @@ public class C05_QualitydemyLoginTesti {
         // gecerli username ve sifre yi ilgili kutulara yazin
         qualitydemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecerliUsername"));
         qualitydemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecerliPassword"));
+        //çerezleri hanle edin
+        qualitydemyPage.cerezkutusuElementi.click();
 
         // login butonuna basin
-        qualitydemyPage.loginButonu.click();
+        qualitydemyPage.loginButonu.submit();
 
 
         // basarili olarak giris yapildigini test edin

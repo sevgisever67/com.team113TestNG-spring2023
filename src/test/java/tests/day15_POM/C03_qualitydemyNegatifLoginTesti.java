@@ -20,12 +20,15 @@ public class C03_qualitydemyNegatifLoginTesti {
         // kullanici adi olarak selenium
         qualitydemyPage.emailKutusu.sendKeys("selenium");
 
+        //çerezleri hanle edin
+        qualitydemyPage.cerezkutusuElementi.click();
+
         // password olarak heyecandir yazin
 
         qualitydemyPage.passwordKutusu.sendKeys("heyecandir");
         // login butonuna tiklayin
 
-        qualitydemyPage.loginButonu.click();
+        qualitydemyPage.loginButonu.submit();
         // giris yapilamadigini test edin
 
         Assert.assertTrue(qualitydemyPage.emailKutusu.isEnabled());

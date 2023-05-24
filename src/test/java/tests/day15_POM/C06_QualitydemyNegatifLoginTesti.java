@@ -20,8 +20,11 @@ public class C06_QualitydemyNegatifLoginTesti {
         qualitydemyPage.emailKutusu.sendKeys(ConfigReader.getProperty("qdGecersizUsername"));
         qualitydemyPage.passwordKutusu.sendKeys(ConfigReader.getProperty("qdGecersizPassword"));
 
+        //çerezleri hanle edin
+        qualitydemyPage.cerezkutusuElementi.click();
+
         // login butonuna basin
-        qualitydemyPage.loginButonu.click();
+        qualitydemyPage.loginButonu.submit();
 
         // basarili olarak giris yapilamadigini test edin
         Assert.assertTrue(qualitydemyPage.emailKutusu.isEnabled());
