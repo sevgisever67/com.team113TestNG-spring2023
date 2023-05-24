@@ -32,16 +32,33 @@
     <test name="chrome test">
         <parameter name="browser" value="chrome"></parameter>
         <classes>
+<<<<<<< HEAD
+=======
+
+>>>>>>> 83dcd2b3a1af2e70801e6c33016876526b0a3c73
             <class name="tests.day19_crossBrowserTesting.C01_AmazonSearch"></class>
             <class name="tests.day19_crossBrowserTesting.C02_AlertsTesti"></class>
             <class name="tests.day19_crossBrowserTesting.C03_BasicAuthentication"></class>
 
+<<<<<<< HEAD
+=======
+        </classes>
+
+    </test>
+    <test name="firefox test">
+        <parameter name="browser" value="firefox"></parameter>
+        <classes>
+
+            <class name="tests.day19_crossBrowserTesting.C01_AmazonSearch"></class>
+            <class name="tests.day19_crossBrowserTesting.C02_AlertsTesti"></class>
+            <class name="tests.day19_crossBrowserTesting.C03_BasicAuthentication"></class>
+>>>>>>> 83dcd2b3a1af2e70801e6c33016876526b0a3c73
         </classes>
 
     </test>
 
-    <test name="edge test">
-        <parameter name="browser" value="edge"></parameter>
+    <test name="safari test">
+        <parameter name="browser" value="safari"></parameter>
         <classes>
 
             <class name="tests.day19_crossBrowserTesting.C01_AmazonSearch"></class>

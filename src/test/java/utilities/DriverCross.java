@@ -22,7 +22,7 @@ public class DriverCross {
       browser = browser==null ? ConfigReader.getProperty("browser") : browser ;
         // bu satir bizim emniyet subabimiz
         // eger parametre olarak null gonderilirse
-        // configuration.properties'deki browser degerini alacak
+        // configuration.properties'deki browser degerini   alacak
 
         if(driver == null){
 
