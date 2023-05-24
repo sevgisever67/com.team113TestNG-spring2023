@@ -1,17 +1,11 @@
-package studyMyself;
+package tests.studyMyself;
 
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import pages.ZeroPage;
 import utilities.ConfigReader;
 import utilities.Driver;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-import java.util.Set;
 
 public class ZeroSoftAssert {
 
